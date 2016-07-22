@@ -15,6 +15,10 @@ Egy gépi és egy interaktív klienst indít, így lehetővé teszi hogy a felha
 ##SzolancSzimulacio
 Négy gépi játékost indít, a Server biztosítja az ellenfelek egymáshoz rendelését.
 
-### Az InteraktivKliens illetve a SzolancJatek automatikusan elindít egy TiltottDeployt és egy Servert. GepiKliens vagy InteraktivKliens használata esetén biztosítani kell, hogy először elindítjuk a TiltottDeploy-t, majd a Servert. A TiltottDeploy egy parancssori paramétert vár, egy számot, ami megadja hogy mennyi tiltott szóhalmazból választhat, ha ennél egyszerre több pár játszik, akkor előről kezdi a kiosztást (6 játékos és 2 tiltott szóhalmaz esetén az első páros a "tiltott1.txt"-t használja, a második páros a "tiltott2.txt"-t, a harmadik páros ismét a "tiltott1.txt"-t).
+#
+#
+#
+Az InteraktivKliens illetve a SzolancJatek automatikusan elindít egy TiltottDeployt és egy Servert. GepiKliens vagy InteraktivKliens használata esetén biztosítani kell, hogy először elindítjuk a TiltottDeploy-t, majd a Servert. A TiltottDeploy egy parancssori paramétert vár, egy számot, ami megadja hogy mennyi tiltott szóhalmazból választhat, ha ennél egyszerre több pár játszik, akkor előről kezdi a kiosztást (6 játékos és 2 tiltott szóhalmaz esetén az első páros a "tiltott1.txt"-t használja, a második páros a "tiltott2.txt"-t, a harmadik páros ismét a "tiltott1.txt"-t).
+#
 #
 Ha fél percen keresztül egy játékos sem csatlakozik, és nincs folyamatban játék, akkor a Server leáll. A TiltottDeploy viszont nem áll le magától, azt nekünk kell leállítani minden esetben.

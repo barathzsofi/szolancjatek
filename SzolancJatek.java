@@ -3,7 +3,7 @@ public class SzolancJatek{
 	public static void main(String[] args) throws Exception{
 		
 		String[] td = {"1"};
-		szolanc.TiltottDeploy.main(td);
+		TiltottDeploy.main(td);
 		
 		new Thread() {
             @Override
